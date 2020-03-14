@@ -47,11 +47,11 @@ MonoBehaviour:
   - version: 2.0.0
     name: SideL
     id: 1582469095.3320532
-    timestamp: 1582470949.2600734
+    timestamp: 1584095895.0367773
     objectType: 0
     gameobjectGUID: 
     textureGUID: 
-    m_distance: 9
+    m_distance: 10
     uvx: 0.1
     uvy: 1
     position: 0
