@@ -9,11 +9,19 @@ public class PathUISelect : MonoBehaviour
     public EventSystem eventSystem;
     public List<Image> cityUI;
     public TMP_Text sName,eName;
+    public List<Transform> places;
+    public GameObject prefab,prefabClone;
+
+    public bool ProjectInit = false;
     GameObject current;
     public string start, end;
+    public Vector3 startloc,endLoc;
     bool setStart = false, setEnd = false, setRoute = false;
     void Start()
     {
+        start = null;
+        end = null;
+        
     }
 
     [System.Obsolete]
@@ -91,6 +99,27 @@ public class PathUISelect : MonoBehaviour
                 obj.color = Color.white;
                 setRoute = false;
             }
+        }
+    }
+    public void ConfirmButton()
+    {
+        if(start!=null & end != null)
+        {
+            foreach (Transform transform in places)
+            {
+                if (transform.name == start)
+                {
+                    startloc = new Vector3(transform.position.x, 1.89f, transform.position.z);
+                }
+                if (transform.name == end)
+                {
+                    endLoc= new Vector3(transform.position.x, 0, transform.position.z);
+                }
+            }
+            prefabClone= Instantiate(prefab, startloc, Quaternion.identity) as GameObject;
+            GameObject ob = transform.gameObject;
+            ob.SetActive(false);
+            ProjectInit = true;
         }
     }
 }

@@ -34,8 +34,16 @@ public class ANN
     }
     public List<double> Train(List<double> inputValues, List<double> desiredOutputs)
     {
+        List<double> output = new List<double>();
+        output = CalcOutput(inputValues, desiredOutputs);
+        UpdateWeights(output, desiredOutputs);
+        return output;
+    }
+    public List<double> CalcOutput(List<double> inputValues, List<double> desiredOutputs)
+    {
         List<double> inputs = new List<double>();
         List<double> outputs = new List<double>();
+        int currentInput = 0;
         if (inputValues.Count != numInputs)
         {
             Debug.Log("ERROR:num of Input must be" + numInputs);
@@ -57,15 +65,59 @@ public class ANN
                 {
                     layers[i].neurons[j].inputs.Add(inputs[k]);
                     N += layers[i].neurons[j].weights[k] * inputs[k];
+                    currentInput++;
                 }
                 N -= layers[i].neurons[j].bias;
-                layers[i].neurons[j].output = ActivateFunction(N);
+                if(i==numHiddenLayer)
+                {
+                    layers[i].neurons[j].output = ActivateFunction2(N);
+                }
+                else
+                {
+                    layers[i].neurons[j].output = ActivateFunction1(N);
+                }
+                
                 outputs.Add(layers[i].neurons[j].output);
+                currentInput = 0;
             }
         }
-        UpdateWeights(outputs, desiredOutputs);
         return outputs; 
     }
+    public string PrintWeight()
+    {
+        string weightString = "";
+        foreach (Layer l in layers)
+        {
+            foreach (Neuron n in l.neurons)
+            {
+                foreach (double w in n.weights)
+                {
+                    weightString += w + ",";
+                }
+            }
+        }
+        return weightString;
+    }
+    public void LoadWeight(string weightString)
+    {
+        if (weightString == "")
+            return;
+        string[] weightValue = weightString.Split(',');
+        int w = 0;
+        foreach (Layer l in layers)
+        {
+            foreach (Neuron n in l.neurons)
+            {
+                for (int i = 0; i < n.weights.Count; i++)
+                {
+                    n.weights[i] = System.Convert.ToDouble(weightValue[w]);
+                    w++;
+                }
+            }
+        }
+
+    }
+
 
     private void UpdateWeights(List<double> outputs, List<double> desiredOutputs)
     {
@@ -105,7 +157,11 @@ public class ANN
             }
         }
     }
-    private double ActivateFunction(double n)
+    private double ActivateFunction1(double n)
+    {
+        return Sigmoid(n);
+    }
+    private double ActivateFunction2(double n)
     {
         return Sigmoid(n);
     }
@@ -114,5 +170,10 @@ public class ANN
     {
         double k = (double)System.Math.Exp(n);
         return k / (1.0f + k);
+    }
+    private double TanH(double n)
+    {
+        double k = (double)System.Math.Exp(-2*n);
+        return 2 / (1.0f + k)-1;
     }
 }
