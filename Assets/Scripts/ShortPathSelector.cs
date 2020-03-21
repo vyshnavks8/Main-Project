@@ -51,6 +51,7 @@ public class ShortPathSelector : MonoBehaviour
             startPoint = Canvas.GetComponent<PathUISelect>().start;
             path = new NavMeshPath();
             agent.CalculatePath(point, path);
+           
             if (temp == false)
             {
                 if (path.status == NavMeshPathStatus.PathComplete)
@@ -71,7 +72,7 @@ public class ShortPathSelector : MonoBehaviour
                 ResetCircuit();
                 nodeList.Clear();
             }
-        } 
+        }
     }
 
     private void ResetCircuit()
@@ -88,15 +89,16 @@ public class ShortPathSelector : MonoBehaviour
         RaycastHit hit;
         for (int i = 0; i < path.corners.Length; i++)
         {
+            
             Vector3 dir = (path.corners[i + 1] - path.corners[i]);
             if (i == path.corners.Length - 2)
             {
                 break;
             }    
-            else if (Physics.Raycast(path.corners[i], dir, out hit, Mathf.Infinity, mask))
+            else if (Physics.Raycast(path.corners[i], dir, out hit ,Mathf.Infinity, mask))
             {  
                 string a = hit.collider.name;
-                set.Add(a);  
+                set.Add(a);
             }
             else
             {
@@ -105,7 +107,10 @@ public class ShortPathSelector : MonoBehaviour
         }
         nodeList = new List<string>();
         foreach (string ob in set)
+        {
             nodeList.Add(ob);
+        }
+            
     }
     void CreateCircuit(List<string> nodeList)
     {
@@ -124,6 +129,7 @@ public class ShortPathSelector : MonoBehaviour
                 GameObject ob2 =routeNodeTrigger.Find(x => x.name == tempName2);
                 ob1.SetActive(false);
                 ob2.SetActive(false);
+                
             }
             
         }

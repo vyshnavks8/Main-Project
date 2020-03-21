@@ -180,6 +180,9 @@ MonoBehaviour:
   WheelRLtrans: {fileID: 1613932573842566732}
   WheelRRtrans: {fileID: 6449773468005376956}
   raycaster: {fileID: 2136929546}
+  image: {fileID: 0}
+  lightObj: []
+  mat: []
 --- !u!1 &691373647514107064
 GameObject:
   m_ObjectHideFlags: 0

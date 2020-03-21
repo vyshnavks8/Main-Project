@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using System;
+using UnityEngine.UI;
 
 public class AnnCar : MonoBehaviour
 {
@@ -29,18 +29,20 @@ public class AnnCar : MonoBehaviour
     public Transform WheelRRtrans;
 
     public Transform raycaster;
-
-
+    public enum signal { red, yellow, green, none };
+    public signal valueSignal;
     float traingProgress = 0;
     double sse = 0;
     double lastsse = 1;
     bool braked = false;
-    bool trainDone = false;  
+    bool trainDone = false;
+    public List<GameObject> lightObj;
+    public List<Material> mat;
     void Start()
     {
         ann = new ANN(11, 2, noHl, neuronInHl, 0.6);
         StartCoroutine(LoadTraingData());
-         
+        valueSignal = signal.none;
     }
 
     IEnumerator LoadTraingData()
@@ -160,6 +162,13 @@ public class AnnCar : MonoBehaviour
     {
         if (!trainDone)
             return;
+        if(braked==false)
+        {
+            MoveCar();
+        }
+    }
+    void MoveCar()
+    {
         List<double> calOP = new List<double>();
         List<double> inputs = new List<double>();
         List<double> outputs = new List<double>();
@@ -182,57 +191,46 @@ public class AnnCar : MonoBehaviour
         if (Physics.Raycast(raycaster.position, raycaster.transform.forward, out hit, visibleDistance, mask))
         {
             fDist = 1 - Round(hit.distance / visibleDistance);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, raycaster.transform.right, out hit, visibleDistance, mask))
         {
             rDist = 1 - Round(hit.distance / visibleDistance);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, -raycaster.transform.right, out hit, visibleDistance, mask))
         {
             lDist = 1 - Round(hit.distance / visibleDistance);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(-45, Vector3.up) * raycaster.transform.right, out hit, visibleDistance, mask))
         {
             r45Dist = 1 - Round(hit.distance / visibleDistance);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(45, Vector3.up) * -raycaster.transform.right, out hit, visibleDistance, mask))
         {
             l45Dist = 1 - Round(hit.distance / visibleDistance);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(-60, Vector3.up) * raycaster.transform.right, out hit, halfVisibleDist, mask))
         {
             r60Dist = 1 - Round(hit.distance / halfVisibleDist);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(60, Vector3.up) * -raycaster.transform.right, out hit, halfVisibleDist, mask))
         {
             l60Dist = 1 - Round(hit.distance / halfVisibleDist);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(-30, Vector3.up) * raycaster.transform.right, out hit, halfVisibleDist, mask))
         {
             r30Dist = 1 - Round(hit.distance / halfVisibleDist);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(30, Vector3.up) * -raycaster.transform.right, out hit, halfVisibleDist, mask))
         {
             l30Dist = 1 - Round(hit.distance / halfVisibleDist);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(-75, Vector3.up) * raycaster.transform.right, out hit, halfVisibleDist, mask))
         {
             r75Dist = 1 - Round(hit.distance / halfVisibleDist);
-            Debug.Log(hit.transform.tag);
         }
         if (Physics.Raycast(raycaster.position, Quaternion.AngleAxis(75, Vector3.up) * -raycaster.transform.right, out hit, halfVisibleDist, mask))
         {
             l75Dist = 1 - Round(hit.distance / halfVisibleDist);
-            Debug.Log(hit.transform.tag);
         }
         inputs.Add(fDist);
         inputs.Add(rDist);
@@ -250,6 +248,7 @@ public class AnnCar : MonoBehaviour
         calOP = ann.CalcOutput(inputs, outputs);
         translationInput = Map(-1, 1, 0, 1, (float)calOP[0]);
         rotationInput = Map(-1, 1, 0, 1, (float)calOP[1]);
+
     }
 
     private void UpdateWheelPos()
@@ -272,22 +271,62 @@ public class AnnCar : MonoBehaviour
 
     void HandBrake()
     {
-        //Debug.Log("brakes " + braked);
-        if (Input.GetButton("Jump"))
-        {
-            braked = true;
-        }
-        else
-        {
-            braked = false;
-        }
+        
         if (braked)
         {
-
+            Debug.Log("braking");
             WheelRL.brakeTorque = maxBrakeTorque * 20;//0000;
             WheelRR.brakeTorque = maxBrakeTorque * 20;//0000;
             WheelRL.motorTorque = 0;
             WheelRR.motorTorque = 0;
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Signal")
+        {
+
+            foreach (Transform child in other.transform)
+            {
+                lightObj.Add(child.gameObject);
+                Debug.Log(lightObj);
+            }
+            for (int i = 0; i < lightObj.Count; i++)
+            {
+                mat.Add(lightObj[i].GetComponent<Renderer>().material);
+            }
+        }
+
+    }
+    void OnTriggerStay(Collider other)
+    {
+        
+        if (other.tag == "Signal")
+        {
+            if (mat[0].color == Color.red)
+            {
+                valueSignal = signal.red;
+                braked = true;
+            }
+            if (mat[1].color == Color.yellow)
+            {
+                valueSignal = signal.yellow;
+            }
+            if (mat[2].color == Color.green)
+            {
+                valueSignal = signal.green;
+                braked = false;
+            }
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Signal")
+        {
+            braked = false;
+            valueSignal = signal.none;
+            lightObj.Clear();
+            mat.Clear();
         }
     }
 }

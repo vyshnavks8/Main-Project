@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 using TMPro;
 public class PathUISelect : MonoBehaviour
 {
+    public GameObject othercanvas;
     public EventSystem eventSystem;
     public List<Image> cityUI;
     public TMP_Text sName,eName;
@@ -116,9 +117,11 @@ public class PathUISelect : MonoBehaviour
                     endLoc= new Vector3(transform.position.x, 0, transform.position.z);
                 }
             }
-            prefabClone= Instantiate(prefab, startloc, Quaternion.identity) as GameObject;
+            Quaternion quat = Quaternion.Euler(0, -10, 0);
+            prefabClone= Instantiate(prefab, startloc, quat) as GameObject;
             GameObject ob = transform.gameObject;
             ob.SetActive(false);
+            othercanvas.SetActive(true);
             ProjectInit = true;
         }
     }

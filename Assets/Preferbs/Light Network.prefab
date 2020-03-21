@@ -513,10 +513,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.403442
+      value: -22.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -526,27 +531,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.354584
+      value: 32.9
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.26382896
+      value: 0.36788276
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.26382896
+      value: 0.36788273
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6560445
+      value: -0.6038728
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6560445
+      value: -0.6038727
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -561,7 +566,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 316.185
+      value: 297.3
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -593,10 +598,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.8246765
+      value: -15.9
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -606,27 +616,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.57538
+      value: -38.6
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.6073764
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.6073764
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.36206895
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.36206895
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -641,7 +651,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 478.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -668,10 +678,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.73468
+      value: -53.5
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -681,7 +696,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.0253906
+      value: -6.1
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -747,6 +762,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Traffic Light (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -823,6 +843,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -841,22 +866,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.24803767
+      value: -0.22612281
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.24803767
+      value: -0.2261228
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6621762
+      value: -0.66997653
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6621762
+      value: -0.6699765
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -871,7 +896,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 401.07
+      value: 397.3
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -898,6 +923,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -916,22 +946,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.672531
+      value: 0.6576782
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.672531
+      value: 0.6576782
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.21840806
+      value: -0.25972947
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.21840806
+      value: -0.25972947
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -946,7 +976,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 215.98299
+      value: 223.1
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -978,10 +1008,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.73468
+      value: -53.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -991,27 +1026,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.0253906
+      value: -8.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.672531
+      value: 0.667775
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.672531
+      value: 0.667775
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.21840806
+      value: -0.23254374
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.21840806
+      value: -0.23254374
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1026,7 +1061,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 215.98299
+      value: 218.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1058,6 +1093,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1076,22 +1116,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.63901895
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.63901895
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.3027455
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.3027455
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1106,7 +1146,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 489.3
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1133,6 +1173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1151,22 +1196,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.672531
+      value: 0.65515476
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.672531
+      value: 0.65515476
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.21840806
+      value: -0.2660306
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.21840806
+      value: -0.2660306
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1181,7 +1226,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 215.98299
+      value: 224.2
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1213,40 +1258,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.805206
+      value: 18.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5969563
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13238525
+      value: 12.5
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.24803767
+      value: -0.148826
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.24803767
+      value: -0.14882599
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6621762
+      value: -0.6912676
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6621762
+      value: -0.69126755
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1261,7 +1311,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 401.07
+      value: 384.3
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1288,10 +1338,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.805206
+      value: 16.8
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1301,27 +1356,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13238525
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.24803767
+      value: -0.1913434
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.24803767
+      value: -0.19134338
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6621762
+      value: -0.68072593
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6621762
+      value: -0.6807259
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1336,7 +1391,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 401.07
+      value: 391.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1363,10 +1418,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.8246765
+      value: -13.2
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1376,27 +1436,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.57538
+      value: -38.9
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.6163438
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.6163438
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.34658384
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.34658384
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1411,7 +1471,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 481.3
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1438,10 +1498,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.805206
+      value: 17.8
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1451,27 +1516,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13238525
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.24803767
+      value: -0.23254363
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.24803767
+      value: -0.23254357
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6621762
+      value: -0.6677751
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6621762
+      value: -0.667775
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1486,7 +1551,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 401.07
+      value: 398.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1513,40 +1578,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.8246765
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5969563
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.57538
+      value: -36.8
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.6830127
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.6830127
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.18301277
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.18301277
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1561,7 +1631,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 510
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1588,6 +1658,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1606,22 +1681,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.6459741
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.6459741
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.28760645
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.28760645
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1636,7 +1711,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 492
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1663,6 +1738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1681,22 +1761,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.62200534
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.62200534
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.33631733
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.33631733
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1711,7 +1791,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 483.2
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1738,10 +1818,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.805206
+      value: 14.1
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1751,27 +1836,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13238525
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.24803767
+      value: -0.28082573
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.24803767
+      value: -0.2808257
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6621762
+      value: -0.64895064
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6621762
+      value: -0.64895064
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1786,7 +1871,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 401.07
+      value: 406.8
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1812,6 +1897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Traffic Light (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1893,6 +1983,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1911,22 +2006,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.24803767
+      value: -0.30886513
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.24803767
+      value: -0.3088651
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6621762
+      value: -0.6360836
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6621762
+      value: -0.63608354
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1941,7 +2036,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 401.07
+      value: 411.8
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -1967,6 +2062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Traffic Light (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2048,6 +2148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2123,40 +2228,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.403442
+      value: -22.7
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.5969563
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.354584
+      value: 33.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.26382896
+      value: 0.3243143
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.26382896
+      value: 0.32431427
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6560445
+      value: -0.6283473
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6560445
+      value: -0.6283472
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2171,7 +2281,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 316.185
+      value: 305.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2203,6 +2313,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2221,22 +2336,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.672531
+      value: 0.6797147
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.672531
+      value: 0.6797147
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.21840806
+      value: -0.19490503
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.21840806
+      value: -0.19490503
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2251,7 +2366,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 215.98299
+      value: 212
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2282,6 +2397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Traffic Light (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2363,6 +2483,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2381,22 +2506,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.63954633
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.63954633
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.3016298
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.3016298
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2411,7 +2536,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 489.5
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2438,10 +2563,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.805206
+      value: 16.5
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2451,7 +2581,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13238525
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2513,10 +2643,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -50.73468
+      value: -52.9
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2526,27 +2661,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.0253906
+      value: -7.2
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.672531
+      value: 0.6535174
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.672531
+      value: 0.6535174
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.21840806
+      value: -0.27002782
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.21840806
+      value: -0.27002782
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2561,7 +2696,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 215.98299
+      value: 224.9
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2593,6 +2728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2611,22 +2751,22 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.64697415
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.64697415
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.2853498
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.2853498
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2641,7 +2781,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 492.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2667,6 +2807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Traffic Light (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2748,10 +2893,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traffic Light (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6666949073098085816, guid: 6fd448671d734904aa18329f5fc144e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Signal
+      objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.8246765
+      value: -14.5
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2761,27 +2911,27 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36.57538
+      value: -36.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.62894344
+      value: -0.6881414
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.62894344
+      value: -0.6881414
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.32315657
+      value: -0.16266973
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.32315657
+      value: -0.16266973
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
@@ -2796,7 +2946,7 @@ PrefabInstance:
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 485.61102
+      value: 513.4
       objectReference: {fileID: 0}
     - target: {fileID: 7700762850208737195, guid: 6fd448671d734904aa18329f5fc144e3,
         type: 3}

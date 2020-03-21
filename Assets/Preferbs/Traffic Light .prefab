@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 7700762850208737195}
   - component: {fileID: 1694934266040311197}
   - component: {fileID: 4952012180266656100}
-  - component: {fileID: 8296172667892356515}
+  - component: {fileID: 1754683885529331907}
   m_Layer: 0
   m_Name: 'Traffic Light '
   m_TagString: Untagged
@@ -177,8 +177,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &8296172667892356515
-SphereCollider:
+--- !u!65 &1754683885529331907
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -188,8 +188,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 5.33
-  m_Center: {x: 1.2619346, y: -0.048448898, z: 0.09088135}
+  m_Size: {x: 2.5238698, y: 5.6, z: 9.92}
+  m_Center: {x: 1.2619349, y: 2.1, z: 4.45}
 --- !u!1 &8549504384503041977
 GameObject:
   m_ObjectHideFlags: 0
