@@ -133,9 +133,11 @@ public class AnnCar : MonoBehaviour
     
     void OnGUI()
     {
-        GUI.Label(new Rect(25, 25, 250, 30),"sse: "+lastsse);
-        GUI.Label(new Rect(25, 40, 250, 30), "alpha: " + ann.alpha);
-        GUI.Label(new Rect(25, 55, 250, 30), "trained: " + traingProgress);
+        GUIStyle style=new GUIStyle();
+        style.normal.textColor = Color.black;
+        GUI.Label(new Rect(25, 25, 250, 30),"sse: "+lastsse, style);
+        GUI.Label(new Rect(25, 40, 250, 30), "alpha: " + ann.alpha,style);
+        GUI.Label(new Rect(25, 55, 250, 30), "trained: " + traingProgress,style);
     }
     void FixedUpdate()
     {
